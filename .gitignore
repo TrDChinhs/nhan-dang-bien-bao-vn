@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Cấu hình công cụ cục bộ
+.claude/
+
+# Quá lớn cho GitHub (giới hạn 100 MB mỗi file): 211 MB, nền phố cắt từ GTSDB. Code vẫn chạy được khi thiếu file này.
+data/vn_signs/bg_pool.npy
+
+# Sinh lại được bất cứ lúc nào
+ket_qua/nhan_dang/
+ket_qua/train_log.txt
